@@ -25,6 +25,12 @@ body {
   background-color: #81B4A3;
 }
 
+h1{
+  padding: 20px;
+  text-align: center;
+  color:#fefefe;
+}
+
 a {
   text-decoration: none;
 }
@@ -38,6 +44,7 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+  
 }
 
 /* Header styles */
@@ -54,7 +61,8 @@ header {
 }
 
 .logo {
-  height: 50px;
+  height: 90px;
+  width:90px;
 }
 
 
@@ -232,7 +240,9 @@ header {
 
 .about-container {
   display: flex;
-  align-items: center;
+  align-items:center;
+  text-align: justify;
+  color: #fefefe;
 }
 
 .about-picture {
@@ -279,6 +289,7 @@ header {
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
+  background-color: #fefefe;
 }
 
 .card:hover {
@@ -317,7 +328,7 @@ header {
 }
 
 .btn-primary:hover {
-  background-color: #021c0b;
+  background-color: #D08A71;
 }
 
 /* Contact Styling */
@@ -335,7 +346,7 @@ header {
 }
 
 .contact-section a:hover {
-  color: #0077b5;
+  color: #D08A71;
 }
 
 
