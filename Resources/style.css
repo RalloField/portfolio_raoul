@@ -97,14 +97,14 @@ header {
   margin: 0 5px;
 }
 
-.nav-bar ul li a:hover{
-  color: #81B4A3;
-  background-color: #fefefe;
+.nav-bar ul li a.active:hover{
+  color: #fefefe;
+  background-color: #D08A71;
 }
 
 .nav-bar ul li a.active{
   color: #81B4A3;
-  background:#fefefe;
+  background-color:#fefefe;
 }
 
 .nav-bar li {
@@ -119,7 +119,7 @@ header {
 }
 
 .nav-bar a.active {
-  border-bottom: 2px solid #000;
+  /* border-bottom: 2px solid #000; */
   padding-bottom: 3px;
 }
 
