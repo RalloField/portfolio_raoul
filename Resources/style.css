@@ -22,7 +22,7 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  background-color: #81B4A3;
+  background-color: #A9B9D9;
 }
 
 h1{
@@ -53,7 +53,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #81B4A3;
+  background-color: #BFA004;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
   position: sticky;
   top: 0;
@@ -91,19 +91,19 @@ header {
   display: block;
   color: #fefefe;
   font-size: 20px;
-  padding: 10px 25px;
-  border-radius: 50px;
+  padding: 10px 25px 10px 25px;
+  border-radius: 70px;
   transition: 0.2s;
   margin: 0 5px;
 }
 
 .nav-bar ul li a.active:hover{
   color: #fefefe;
-  background-color: #D08A71;
+  background-color: #BFCAD9;
 }
 
 .nav-bar ul li a.active{
-  color: #81B4A3;
+  color: #332424;
   background-color:#fefefe;
 }
 
@@ -154,7 +154,7 @@ header {
     left: 0;
     right: 0;
     width: 100vw;
-    background-color: #81B4A3;
+    background-color: #332424;
     transition: 0.2s;
     overflow: hidden;
   }
@@ -182,7 +182,7 @@ header {
 
 /* Banner styles */
 .banner {
-  height: 400px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -197,14 +197,15 @@ header {
   top: 0;
   left: 0;
   z-index: -1;
+  /* filter: grayscale(); */
 }
 
 .banner h1 {
-  font-size: 48px;
+  font-size: 300px;
+  font-weight: 200;
   font-weight: 500;
   text-align: center;
   color: #fff;
-  background-color: #D08A71;
   padding: 5px;
   border-radius: 20px;
   margin: 0;
@@ -212,11 +213,10 @@ header {
 }
 
 .banner h5 {
-  font-size: 18px;
+  font-size: 100px;
   font-weight: 300;
   text-align: center;
   color: #ffffff;
-  background-color: #D08A71;
   padding: 5px;
   border-radius: 20px;
   margin: 0;
@@ -227,6 +227,7 @@ header {
 /* Styles for the About me page */
 .welcome-container {
   display: flex;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -250,6 +251,7 @@ header {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+  filter: grayscale();
 
 }
 
@@ -270,8 +272,15 @@ header {
 
 /* Style Cards */
 
+.projects-container {
+  align-items:center;
+  text-align: justify;
+  color: #fefefe;
+}
+
 .My-Projects {
   max-width: 960px;
+  height: 100vh;
   margin: 0 auto;
   text-align: center;
 }
@@ -289,7 +298,8 @@ header {
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  background-color: #fefefe;
+  background-color: #BCACB6;
+  border-radius: 10px;
 }
 
 .card:hover {
@@ -317,7 +327,7 @@ header {
 }
 
 .btn-primary {
-  background-color: #81B4A3;
+  background-color: #BFA004;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -328,7 +338,13 @@ header {
 }
 
 .btn-primary:hover {
-  background-color: #D08A71;
+  background-color: #999999;
+}
+
+/* Skills styling */
+
+.skills-container{
+  height: 100vh;
 }
 
 /* Contact Styling */
@@ -337,21 +353,22 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+  height: 100vh;
 }
 
 .contact-section a {
-  color: #555;
+  color: #fefefe;
   font-size: 1.5rem;
   margin: 0 1rem;
 }
 
 .contact-section a:hover {
-  color: #D08A71;
+  color: #999999;
 }
 
 
 footer {
-  background-color: #81B4A3;
+  background-color: #BFA004;
   padding: 10px;
   text-align: center;
 }
@@ -360,4 +377,12 @@ footer p {
   font-size: 14px;
   color: white;
   margin: 0;
+}
+
+#Projects{
+ padding-top: 110px
+}
+
+#Contact{
+  padding-top: 110px
 }
