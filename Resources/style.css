@@ -244,6 +244,11 @@ header {
   align-items:center;
   text-align: justify;
   color: #fefefe;
+  padding: 15px;
+}
+
+.about-text{
+ padding: 15px;
 }
 
 .about-picture {
