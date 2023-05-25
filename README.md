@@ -29,7 +29,7 @@ List the ready features here:
 
 
 ## Screenshots
-![Screenshot](./Media/scrshot.png)
+![Screenshot](./Media/portfolio.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
@@ -41,7 +41,6 @@ Just go ahead and use the awesome navbar to go around.
 
 Room for improvement:
 - Add nicer projects
-- Learn CSS from scratch (again)
 
 To do:
 - Update current projects with remade ones.
@@ -52,8 +51,6 @@ To do:
 Give credit here.
 - This project was inspired by BeCode.
 - This project was based on projects done at BeCode
-- Many thanks to Gidget
-- For Hamburger-menu questions please see Mr. Mykola Marenich.
 
 
 ## Contact
